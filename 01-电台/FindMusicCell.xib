@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="600" id="KGk-i7-Jjw" customClass="FindMusicCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ve-QO-CVx">
+                        <rect key="frame" x="8" y="8" width="275" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="275" id="O0m-5T-22V"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bigPlaceHolder.png" translatesAutoresizingMaskIntoConstraints="NO" id="dVw-1V-pYM">
+                        <rect key="frame" x="8" y="69" width="360" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="SGY-bc-ZKL"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4J2-8t-nQL">
+                        <rect key="frame" x="307" y="45" width="45" height="45"/>
+                        <color key="backgroundColor" red="0.81034128289999996" green="0.79738898030000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="26E-Ey-Tf4"/>
+                            <constraint firstAttribute="height" constant="45" id="CZU-Ib-SEl"/>
+                        </constraints>
+                        <state key="normal" image="cell播放2.png">
+                            <color key="titleShadowColor" red="0.81034128289999996" green="0.79738898030000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QPR-LP-Uvc">
+                        <rect key="frame" x="7" y="262" width="361" height="329"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lt-Bv-OIW">
+                        <rect key="frame" x="8" y="39" width="230" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="230" id="LnB-jR-e5V"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3Ve-QO-CVx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="8Yo-E5-2Bu"/>
+                    <constraint firstAttribute="bottom" secondItem="QPR-LP-Uvc" secondAttribute="bottom" constant="8" id="8r0-cc-BqP"/>
+                    <constraint firstAttribute="trailing" secondItem="4J2-8t-nQL" secondAttribute="trailing" constant="23" id="Acf-zO-J4t"/>
+                    <constraint firstItem="dVw-1V-pYM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="BBh-6f-Vzv"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Ve-QO-CVx" secondAttribute="trailing" constant="8" id="BJu-Nf-Lux"/>
+                    <constraint firstItem="4J2-8t-nQL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="45" id="DhV-rA-ZwZ"/>
+                    <constraint firstItem="4lt-Bv-OIW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="KbA-LK-hAG"/>
+                    <constraint firstItem="4J2-8t-nQL" firstAttribute="leading" secondItem="4lt-Bv-OIW" secondAttribute="trailing" constant="69" id="TcQ-LC-EFT"/>
+                    <constraint firstAttribute="trailing" secondItem="dVw-1V-pYM" secondAttribute="trailing" constant="7" id="WPH-z2-hDx"/>
+                    <constraint firstItem="4lt-Bv-OIW" firstAttribute="top" secondItem="3Ve-QO-CVx" secondAttribute="bottom" constant="11" id="Xlf-dI-UnC"/>
+                    <constraint firstAttribute="trailing" secondItem="QPR-LP-Uvc" secondAttribute="trailing" constant="7" id="ZPV-bc-5WR"/>
+                    <constraint firstItem="QPR-LP-Uvc" firstAttribute="top" secondItem="dVw-1V-pYM" secondAttribute="bottom" constant="4" id="m5B-Zm-Sfx"/>
+                    <constraint firstItem="QPR-LP-Uvc" firstAttribute="top" secondItem="dVw-1V-pYM" secondAttribute="bottom" constant="5" id="m8L-Gs-6w8"/>
+                    <constraint firstItem="QPR-LP-Uvc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="p3t-NF-CSp"/>
+                    <constraint firstItem="QPR-LP-Uvc" firstAttribute="top" secondItem="dVw-1V-pYM" secondAttribute="bottom" constant="13" id="qKU-Hc-rGl"/>
+                    <constraint firstItem="3Ve-QO-CVx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="tYp-jc-P9w"/>
+                    <constraint firstItem="dVw-1V-pYM" firstAttribute="top" secondItem="4lt-Bv-OIW" secondAttribute="bottom" constant="5" id="xi5-ef-fOO"/>
+                    <constraint firstItem="dVw-1V-pYM" firstAttribute="top" secondItem="4lt-Bv-OIW" secondAttribute="bottom" constant="8" id="zX9-SN-cbI"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="BJu-Nf-Lux"/>
+                        <exclude reference="xi5-ef-fOO"/>
+                        <exclude reference="m5B-Zm-Sfx"/>
+                        <exclude reference="m8L-Gs-6w8"/>
+                        <exclude reference="TcQ-LC-EFT"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backImage" destination="dVw-1V-pYM" id="ibO-Tg-vmQ"/>
+                <outlet property="musicList" destination="3Ve-QO-CVx" id="kEv-Bz-NRU"/>
+                <outlet property="playBtn" destination="4J2-8t-nQL" id="quN-S8-UUx"/>
+                <outlet property="timeAndNumber" destination="4lt-Bv-OIW" id="flz-Vo-lwG"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bigPlaceHolder.png" width="830" height="433"/>
+        <image name="cell播放2.png" width="25" height="25"/>
+    </resources>
+</document>

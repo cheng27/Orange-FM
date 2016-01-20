@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="155" id="KGk-i7-Jjw" customClass="MusicCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="viw-ug-sXL">
+                        <rect key="frame" x="2" y="2" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="J28-jZ-gWj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biL-sN-diX">
+                        <rect key="frame" x="160" y="18" width="42" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGp-cV-9LV">
+                        <rect key="frame" x="160" y="95" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UGp-cV-9LV" firstAttribute="leading" secondItem="viw-ug-sXL" secondAttribute="trailing" constant="8" id="COd-pb-G8v"/>
+                    <constraint firstItem="biL-sN-diX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="18" id="Gct-TN-84g"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="biL-sN-diX" secondAttribute="trailing" constant="8" id="JnY-mh-A1I"/>
+                    <constraint firstItem="viw-ug-sXL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="Lfp-k6-YnI"/>
+                    <constraint firstAttribute="bottom" secondItem="UGp-cV-9LV" secondAttribute="bottom" constant="38" id="Mfk-GY-ebl"/>
+                    <constraint firstItem="biL-sN-diX" firstAttribute="leading" secondItem="viw-ug-sXL" secondAttribute="trailing" constant="8" id="W5L-RY-dEv"/>
+                    <constraint firstItem="viw-ug-sXL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="XwI-T7-3oz"/>
+                    <constraint firstAttribute="bottom" secondItem="viw-ug-sXL" secondAttribute="bottom" constant="2" id="eMw-BD-GS8"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UGp-cV-9LV" secondAttribute="trailing" constant="8" id="gcd-yo-hek"/>
+                    <constraint firstItem="UGp-cV-9LV" firstAttribute="top" secondItem="biL-sN-diX" secondAttribute="bottom" constant="47" id="glY-4y-mL9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="musicImage" destination="viw-ug-sXL" id="oSx-es-eky"/>
+                <outlet property="musicName" destination="biL-sN-diX" id="vjF-Oh-181"/>
+                <outlet property="singer" destination="UGp-cV-9LV" id="cEb-Cv-GdF"/>
+            </connections>
+            <point key="canvasLocation" x="302.5" y="471.5"/>
+        </tableViewCell>
+    </objects>
+</document>

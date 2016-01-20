@@ -7,6 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44194D19FCB2D02537F742E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AC6AB5A532D0740E607EA5 /* libPods.a */; };
+		CC6704AE1C433C2A0068424F /* UIView+FrameExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6704AD1C433C2A0068424F /* UIView+FrameExtension.m */; };
+		CC6705911C434BD10068424F /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = CC67058B1C434BD10068424F /* btn_close_normal.png */; };
+		CC6705921C434BD10068424F /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC67058C1C434BD10068424F /* btn_close_normal@2x.png */; };
+		CC6705931C434BD10068424F /* btn_close_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CC67058D1C434BD10068424F /* btn_close_selected.png */; };
+		CC6705941C434BD10068424F /* btn_close_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC67058E1C434BD10068424F /* btn_close_selected@2x.png */; };
+		CC6705951C434BD10068424F /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6705901C434BD10068424F /* DXAlertView.m */; };
+		CC694DDD1C437BFF008521D1 /* MusicTabBack.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD31C437BFF008521D1 /* MusicTabBack.png */; };
+		CC694DDE1C437BFF008521D1 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD41C437BFF008521D1 /* quit.png */; };
+		CC694DDF1C437BFF008521D1 /* 播放.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD51C437BFF008521D1 /* 播放.png */; };
+		CC694DE01C437BFF008521D1 /* 歌单.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD61C437BFF008521D1 /* 歌单.png */; };
+		CC694DE11C437BFF008521D1 /* 上一首.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD71C437BFF008521D1 /* 上一首.png */; };
+		CC694DE21C437BFF008521D1 /* 收藏.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD81C437BFF008521D1 /* 收藏.png */; };
+		CC694DE31C437BFF008521D1 /* 收藏过.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DD91C437BFF008521D1 /* 收藏过.png */; };
+		CC694DE41C437BFF008521D1 /* 下一首.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DDA1C437BFF008521D1 /* 下一首.png */; };
+		CC694DE51C437BFF008521D1 /* 圆矩形.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DDB1C437BFF008521D1 /* 圆矩形.png */; };
+		CC694DE61C437BFF008521D1 /* 暂停.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694DDC1C437BFF008521D1 /* 暂停.png */; };
+		CC694DE81C437C69008521D1 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC694DE71C437C69008521D1 /* 背景.jpg */; };
+		CC694DED1C4386DD008521D1 /* CYJPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694DEC1C4386DD008521D1 /* CYJPlayerModel.m */; };
+		CC694DF01C438709008521D1 /* CYJPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694DEF1C438709008521D1 /* CYJPlayer.m */; };
+		CC694DF41C438AA0008521D1 /* CYJReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694DF31C438AA0008521D1 /* CYJReaderVC.m */; };
+		CC694EB51C43CE6A008521D1 /* CYJListenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694EB41C43CE6A008521D1 /* CYJListenVC.m */; };
+		CC694EB81C43D9DA008521D1 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC694EB71C43D9DA008521D1 /* loading.gif */; };
+		CC694EBD1C43E38D008521D1 /* NewProductsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694EBB1C43E38D008521D1 /* NewProductsCell.m */; };
+		CC694EBE1C43E38D008521D1 /* NewProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC694EBC1C43E38D008521D1 /* NewProductsCell.xib */; };
+		CC694EC21C43E67B008521D1 /* ArtistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694EC01C43E67B008521D1 /* ArtistCell.m */; };
+		CC694EC31C43E67B008521D1 /* ArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC694EC11C43E67B008521D1 /* ArtistCell.xib */; };
+		CC694EC51C43E9AF008521D1 /* bigPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = CC694EC41C43E9AF008521D1 /* bigPlaceHolder.png */; };
+		CC694EC81C43EBFF008521D1 /* ScrollDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC694EC71C43EBFF008521D1 /* ScrollDetailVC.m */; };
+		CC71F4F61C44873700FDB49F /* cat.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC71F4F51C44873700FDB49F /* cat.gif */; };
+		CC71F4F91C44A4B400FDB49F /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = CC71F4F81C44A4B400FDB49F /* 更多.png */; };
+		CC75902E1C4B77DD00213506 /* CYJTodayMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75902D1C4B77DD00213506 /* CYJTodayMusicVC.m */; };
+		CC7590331C4B798600213506 /* TodayMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7590311C4B798600213506 /* TodayMusicCell.m */; };
+		CC7590341C4B798600213506 /* TodayMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7590321C4B798600213506 /* TodayMusicCell.xib */; };
+		CC7590371C4B892800213506 /* CYJTodayMusicDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7590361C4B892800213506 /* CYJTodayMusicDetailVC.m */; };
+		CC7590391C4B92F900213506 /* cell播放.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7590381C4B92F900213506 /* cell播放.png */; };
+		CC75903C1C4BAF4700213506 /* CYJFindMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75903B1C4BAF4700213506 /* CYJFindMusicVC.m */; };
+		CC7590401C4BB03100213506 /* FindMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75903E1C4BB03100213506 /* FindMusicCell.m */; };
+		CC7590411C4BB03100213506 /* FindMusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC75903F1C4BB03100213506 /* FindMusicCell.xib */; };
+		CC7590431C4BB12B00213506 /* cell播放2.png in Resources */ = {isa = PBXBuildFile; fileRef = CC7590421C4BB12B00213506 /* cell播放2.png */; };
+		CC78BB381C4E184100ECDBB2 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB2E1C4E184100ECDBB2 /* FMDatabase.m */; };
+		CC78BB391C4E184100ECDBB2 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB301C4E184100ECDBB2 /* FMDatabaseAdditions.m */; };
+		CC78BB3A1C4E184100ECDBB2 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB321C4E184100ECDBB2 /* FMDatabasePool.m */; };
+		CC78BB3B1C4E184100ECDBB2 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB341C4E184100ECDBB2 /* FMDatabaseQueue.m */; };
+		CC78BB3C1C4E184100ECDBB2 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB371C4E184100ECDBB2 /* FMResultSet.m */; };
+		CC78BB3E1C4E1B7900ECDBB2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CC78BB3D1C4E1B7800ECDBB2 /* libsqlite3.0.tbd */; };
+		CC78BB411C4E1BAA00ECDBB2 /* CYJFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78BB401C4E1BAA00ECDBB2 /* CYJFileManager.m */; };
+		CC9F17391C4CC36000368B04 /* TabBarSel3.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9F17381C4CC36000368B04 /* TabBarSel3.png */; };
+		CC9F173B1C4CC3AE00368B04 /* TabBar3.png in Resources */ = {isa = PBXBuildFile; fileRef = CC9F173A1C4CC3AE00368B04 /* TabBar3.png */; };
+		CC9F173F1C4CC49700368B04 /* CYJFashionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F173E1C4CC49700368B04 /* CYJFashionVC.m */; };
+		CC9F174E1C4D103000368B04 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F174D1C4D103000368B04 /* RootViewController.m */; };
+		CC9F17521C4D11D800368B04 /* CYJCollectMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F17511C4D11D800368B04 /* CYJCollectMusic.m */; };
+		CC9F17571C4D123300368B04 /* MusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F17551C4D123300368B04 /* MusicCell.m */; };
+		CC9F17581C4D123300368B04 /* MusicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC9F17561C4D123300368B04 /* MusicCell.xib */; };
+		CCBC0B051C4DC8DD000703FA /* 音量.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBC0B041C4DC8DC000703FA /* 音量.png */; };
+		CCBC0BD61C4DE15B000703FA /* iconfont-huakuai.png in Resources */ = {isa = PBXBuildFile; fileRef = CCBC0BD51C4DE15B000703FA /* iconfont-huakuai.png */; };
+		CCBC0BF21C4DE5A8000703FA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCBC0BD81C4DE5A8000703FA /* Info.plist */; };
+		CCBC0BF31C4DE5A8000703FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BDA1C4DE5A8000703FA /* MASCompositeConstraint.m */; };
+		CCBC0BF41C4DE5A8000703FA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BDD1C4DE5A8000703FA /* MASConstraint.m */; };
+		CCBC0BF51C4DE5A8000703FA /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BDF1C4DE5A8000703FA /* MASConstraintMaker.m */; };
+		CCBC0BF61C4DE5A8000703FA /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BE11C4DE5A8000703FA /* MASLayoutConstraint.m */; };
+		CCBC0BF71C4DE5A8000703FA /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BE51C4DE5A8000703FA /* MASViewAttribute.m */; };
+		CCBC0BF81C4DE5A8000703FA /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BE71C4DE5A8000703FA /* MASViewConstraint.m */; };
+		CCBC0BF91C4DE5A8000703FA /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BE91C4DE5A8000703FA /* NSArray+MASAdditions.m */; };
+		CCBC0BFA1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BEC1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CCBC0BFB1C4DE5A8000703FA /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BEE1C4DE5A8000703FA /* View+MASAdditions.m */; };
+		CCBC0BFC1C4DE5A8000703FA /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBC0BF11C4DE5A8000703FA /* ViewController+MASAdditions.m */; };
 		CCC6510E1C42725700392632 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC6510D1C42725700392632 /* main.m */; };
 		CCC651111C42725700392632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC651101C42725700392632 /* AppDelegate.m */; };
 		CCC651141C42725700392632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC651131C42725700392632 /* ViewController.m */; };
@@ -16,6 +83,15 @@
 		CCC6511F1C42725700392632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC6511D1C42725700392632 /* LaunchScreen.storyboard */; };
 		CCC6512A1C42725700392632 /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC651291C42725700392632 /* _1___Tests.m */; };
 		CCC651351C42725700392632 /* _1___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC651341C42725700392632 /* _1___UITests.m */; };
+		CCC651451C4278E700392632 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC651441C4278E700392632 /* MyTabBar.m */; };
+		CCC651591C427FF100392632 /* 简魏碑.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CCC651581C427FF100392632 /* 简魏碑.TTF */; };
+		CCC651641C42889400392632 /* TabBarSel4.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC6515C1C42889400392632 /* TabBarSel4.png */; };
+		CCC651651C42889400392632 /* TabBar4.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC6515D1C42889400392632 /* TabBar4.png */; };
+		CCC651661C42889400392632 /* TabBar2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC6515E1C42889400392632 /* TabBar2.png */; };
+		CCC651671C42889400392632 /* TabBar1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC6515F1C42889400392632 /* TabBar1.png */; };
+		CCC651681C42889400392632 /* TabBarSel1.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC651601C42889400392632 /* TabBarSel1.png */; };
+		CCC651691C42889400392632 /* TabBarSel2.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC651611C42889400392632 /* TabBarSel2.png */; };
+		CCC6516B1C428C9B00392632 /* TabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC6516A1C428C9B00392632 /* TabBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +112,115 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CD9A8DD7FC4727660216978 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		63AC6AB5A532D0740E607EA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF466FEF97B7EDE7BA7186C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CC6704AC1C433C2A0068424F /* UIView+FrameExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameExtension.h"; sourceTree = "<group>"; };
+		CC6704AD1C433C2A0068424F /* UIView+FrameExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameExtension.m"; sourceTree = "<group>"; };
+		CC67058B1C434BD10068424F /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
+		CC67058C1C434BD10068424F /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
+		CC67058D1C434BD10068424F /* btn_close_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_selected.png; sourceTree = "<group>"; };
+		CC67058E1C434BD10068424F /* btn_close_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_selected@2x.png"; sourceTree = "<group>"; };
+		CC67058F1C434BD10068424F /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
+		CC6705901C434BD10068424F /* DXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXAlertView.m; sourceTree = "<group>"; };
+		CC694DD31C437BFF008521D1 /* MusicTabBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicTabBack.png; sourceTree = "<group>"; };
+		CC694DD41C437BFF008521D1 /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit.png; sourceTree = "<group>"; };
+		CC694DD51C437BFF008521D1 /* 播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放.png"; sourceTree = "<group>"; };
+		CC694DD61C437BFF008521D1 /* 歌单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "歌单.png"; sourceTree = "<group>"; };
+		CC694DD71C437BFF008521D1 /* 上一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上一首.png"; sourceTree = "<group>"; };
+		CC694DD81C437BFF008521D1 /* 收藏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏.png"; sourceTree = "<group>"; };
+		CC694DD91C437BFF008521D1 /* 收藏过.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏过.png"; sourceTree = "<group>"; };
+		CC694DDA1C437BFF008521D1 /* 下一首.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一首.png"; sourceTree = "<group>"; };
+		CC694DDB1C437BFF008521D1 /* 圆矩形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆矩形.png"; sourceTree = "<group>"; };
+		CC694DDC1C437BFF008521D1 /* 暂停.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "暂停.png"; sourceTree = "<group>"; };
+		CC694DE71C437C69008521D1 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		CC694DEB1C4386DD008521D1 /* CYJPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJPlayerModel.h; sourceTree = "<group>"; };
+		CC694DEC1C4386DD008521D1 /* CYJPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJPlayerModel.m; sourceTree = "<group>"; };
+		CC694DEE1C438709008521D1 /* CYJPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJPlayer.h; sourceTree = "<group>"; };
+		CC694DEF1C438709008521D1 /* CYJPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJPlayer.m; sourceTree = "<group>"; };
+		CC694DF21C438AA0008521D1 /* CYJReaderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJReaderVC.h; sourceTree = "<group>"; };
+		CC694DF31C438AA0008521D1 /* CYJReaderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJReaderVC.m; sourceTree = "<group>"; };
+		CC694EB31C43CE6A008521D1 /* CYJListenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJListenVC.h; sourceTree = "<group>"; };
+		CC694EB41C43CE6A008521D1 /* CYJListenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJListenVC.m; sourceTree = "<group>"; };
+		CC694EB71C43D9DA008521D1 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		CC694EBA1C43E38D008521D1 /* NewProductsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProductsCell.h; sourceTree = "<group>"; };
+		CC694EBB1C43E38D008521D1 /* NewProductsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProductsCell.m; sourceTree = "<group>"; };
+		CC694EBC1C43E38D008521D1 /* NewProductsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewProductsCell.xib; sourceTree = "<group>"; };
+		CC694EBF1C43E67B008521D1 /* ArtistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistCell.h; sourceTree = "<group>"; };
+		CC694EC01C43E67B008521D1 /* ArtistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistCell.m; sourceTree = "<group>"; };
+		CC694EC11C43E67B008521D1 /* ArtistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistCell.xib; sourceTree = "<group>"; };
+		CC694EC41C43E9AF008521D1 /* bigPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigPlaceHolder.png; sourceTree = "<group>"; };
+		CC694EC61C43EBFF008521D1 /* ScrollDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollDetailVC.h; sourceTree = "<group>"; };
+		CC694EC71C43EBFF008521D1 /* ScrollDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollDetailVC.m; sourceTree = "<group>"; };
+		CC71F4F51C44873700FDB49F /* cat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat.gif; sourceTree = "<group>"; };
+		CC71F4F81C44A4B400FDB49F /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多.png"; sourceTree = "<group>"; };
+		CC75902C1C4B77DD00213506 /* CYJTodayMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJTodayMusicVC.h; sourceTree = "<group>"; };
+		CC75902D1C4B77DD00213506 /* CYJTodayMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJTodayMusicVC.m; sourceTree = "<group>"; };
+		CC7590301C4B798600213506 /* TodayMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayMusicCell.h; sourceTree = "<group>"; };
+		CC7590311C4B798600213506 /* TodayMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayMusicCell.m; sourceTree = "<group>"; };
+		CC7590321C4B798600213506 /* TodayMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayMusicCell.xib; sourceTree = "<group>"; };
+		CC7590351C4B892800213506 /* CYJTodayMusicDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJTodayMusicDetailVC.h; sourceTree = "<group>"; };
+		CC7590361C4B892800213506 /* CYJTodayMusicDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJTodayMusicDetailVC.m; sourceTree = "<group>"; };
+		CC7590381C4B92F900213506 /* cell播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell播放.png"; sourceTree = "<group>"; };
+		CC75903A1C4BAF4700213506 /* CYJFindMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJFindMusicVC.h; sourceTree = "<group>"; };
+		CC75903B1C4BAF4700213506 /* CYJFindMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJFindMusicVC.m; sourceTree = "<group>"; };
+		CC75903D1C4BB03100213506 /* FindMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMusicCell.h; sourceTree = "<group>"; };
+		CC75903E1C4BB03100213506 /* FindMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMusicCell.m; sourceTree = "<group>"; };
+		CC75903F1C4BB03100213506 /* FindMusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindMusicCell.xib; sourceTree = "<group>"; };
+		CC7590421C4BB12B00213506 /* cell播放2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell播放2.png"; sourceTree = "<group>"; };
+		CC78BB2D1C4E184100ECDBB2 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CC78BB2E1C4E184100ECDBB2 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CC78BB2F1C4E184100ECDBB2 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CC78BB301C4E184100ECDBB2 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CC78BB311C4E184100ECDBB2 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CC78BB321C4E184100ECDBB2 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CC78BB331C4E184100ECDBB2 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CC78BB341C4E184100ECDBB2 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CC78BB351C4E184100ECDBB2 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		CC78BB361C4E184100ECDBB2 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CC78BB371C4E184100ECDBB2 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CC78BB3D1C4E1B7800ECDBB2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CC78BB3F1C4E1BAA00ECDBB2 /* CYJFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJFileManager.h; sourceTree = "<group>"; };
+		CC78BB401C4E1BAA00ECDBB2 /* CYJFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJFileManager.m; sourceTree = "<group>"; };
+		CC9F17381C4CC36000368B04 /* TabBarSel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarSel3.png; sourceTree = "<group>"; };
+		CC9F173A1C4CC3AE00368B04 /* TabBar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar3.png; sourceTree = "<group>"; };
+		CC9F173D1C4CC49700368B04 /* CYJFashionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJFashionVC.h; sourceTree = "<group>"; };
+		CC9F173E1C4CC49700368B04 /* CYJFashionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJFashionVC.m; sourceTree = "<group>"; };
+		CC9F174C1C4D103000368B04 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CC9F174D1C4D103000368B04 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CC9F17501C4D11D800368B04 /* CYJCollectMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYJCollectMusic.h; sourceTree = "<group>"; };
+		CC9F17511C4D11D800368B04 /* CYJCollectMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYJCollectMusic.m; sourceTree = "<group>"; };
+		CC9F17541C4D123300368B04 /* MusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCell.h; sourceTree = "<group>"; };
+		CC9F17551C4D123300368B04 /* MusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCell.m; sourceTree = "<group>"; };
+		CC9F17561C4D123300368B04 /* MusicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicCell.xib; sourceTree = "<group>"; };
+		CCBC0B041C4DC8DC000703FA /* 音量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "音量.png"; sourceTree = "<group>"; };
+		CCBC0BD51C4DE15B000703FA /* iconfont-huakuai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-huakuai.png"; sourceTree = "<group>"; };
+		CCBC0BD81C4DE5A8000703FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCBC0BD91C4DE5A8000703FA /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CCBC0BDA1C4DE5A8000703FA /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CCBC0BDB1C4DE5A8000703FA /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CCBC0BDC1C4DE5A8000703FA /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		CCBC0BDD1C4DE5A8000703FA /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		CCBC0BDE1C4DE5A8000703FA /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		CCBC0BDF1C4DE5A8000703FA /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		CCBC0BE01C4DE5A8000703FA /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CCBC0BE11C4DE5A8000703FA /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CCBC0BE21C4DE5A8000703FA /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		CCBC0BE31C4DE5A8000703FA /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		CCBC0BE41C4DE5A8000703FA /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		CCBC0BE51C4DE5A8000703FA /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		CCBC0BE61C4DE5A8000703FA /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		CCBC0BE71C4DE5A8000703FA /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		CCBC0BE81C4DE5A8000703FA /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BE91C4DE5A8000703FA /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CCBC0BEA1C4DE5A8000703FA /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BEB1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BEC1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CCBC0BED1C4DE5A8000703FA /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BEE1C4DE5A8000703FA /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		CCBC0BEF1C4DE5A8000703FA /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BF01C4DE5A8000703FA /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CCBC0BF11C4DE5A8000703FA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		CCC651091C42725700392632 /* 01-电台.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-电台.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC6510D1C42725700392632 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC6510F1C42725700392632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +238,17 @@
 		CCC651301C42725700392632 /* 01-电台UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-电台UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC651341C42725700392632 /* _1___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___UITests.m"; sourceTree = "<group>"; };
 		CCC651361C42725700392632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC651431C4278E700392632 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		CCC651441C4278E700392632 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		CCC651571C427DD300392632 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CCC651581C427FF100392632 /* 简魏碑.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "简魏碑.TTF"; sourceTree = "<group>"; };
+		CCC6515C1C42889400392632 /* TabBarSel4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarSel4.png; sourceTree = "<group>"; };
+		CCC6515D1C42889400392632 /* TabBar4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar4.png; sourceTree = "<group>"; };
+		CCC6515E1C42889400392632 /* TabBar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar2.png; sourceTree = "<group>"; };
+		CCC6515F1C42889400392632 /* TabBar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar1.png; sourceTree = "<group>"; };
+		CCC651601C42889400392632 /* TabBarSel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarSel1.png; sourceTree = "<group>"; };
+		CCC651611C42889400392632 /* TabBarSel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarSel2.png; sourceTree = "<group>"; };
+		CCC6516A1C428C9B00392632 /* TabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +256,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC78BB3E1C4E1B7900ECDBB2 /* libsqlite3.0.tbd in Frameworks */,
+				44194D19FCB2D02537F742E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +278,265 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312726CCAEC3518009CD29DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD9A8DD7FC4727660216978 /* Pods.debug.xcconfig */,
+				BAF466FEF97B7EDE7BA7186C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82616C07ECB4C3FC6D0F4271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC78BB3D1C4E1B7800ECDBB2 /* libsqlite3.0.tbd */,
+				63AC6AB5A532D0740E607EA5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6704AB1C433BFC0068424F /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CC78BB2C1C4E184100ECDBB2 /* fmdb */,
+				CCBC0BD71C4DE5A8000703FA /* Masonry */,
+				CC67058A1C434BD10068424F /* Vendor */,
+				CC6704AC1C433C2A0068424F /* UIView+FrameExtension.h */,
+				CC6704AD1C433C2A0068424F /* UIView+FrameExtension.m */,
+				CCC651571C427DD300392632 /* Header.h */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		CC67058A1C434BD10068424F /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CC67058B1C434BD10068424F /* btn_close_normal.png */,
+				CC67058C1C434BD10068424F /* btn_close_normal@2x.png */,
+				CC67058D1C434BD10068424F /* btn_close_selected.png */,
+				CC67058E1C434BD10068424F /* btn_close_selected@2x.png */,
+				CC67058F1C434BD10068424F /* DXAlertView.h */,
+				CC6705901C434BD10068424F /* DXAlertView.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CC694DE91C437D7D008521D1 /* playerImage */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC0BD51C4DE15B000703FA /* iconfont-huakuai.png */,
+				CCBC0B041C4DC8DC000703FA /* 音量.png */,
+				CC694DE71C437C69008521D1 /* 背景.jpg */,
+				CC694DD31C437BFF008521D1 /* MusicTabBack.png */,
+				CC694DD41C437BFF008521D1 /* quit.png */,
+				CC694DD51C437BFF008521D1 /* 播放.png */,
+				CC694DD61C437BFF008521D1 /* 歌单.png */,
+				CC694DD71C437BFF008521D1 /* 上一首.png */,
+				CC694DD81C437BFF008521D1 /* 收藏.png */,
+				CC694DD91C437BFF008521D1 /* 收藏过.png */,
+				CC694DDA1C437BFF008521D1 /* 下一首.png */,
+				CC694DDB1C437BFF008521D1 /* 圆矩形.png */,
+				CC694DDC1C437BFF008521D1 /* 暂停.png */,
+			);
+			name = playerImage;
+			sourceTree = "<group>";
+		};
+		CC694DEA1C4386B1008521D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC694DEB1C4386DD008521D1 /* CYJPlayerModel.h */,
+				CC694DEC1C4386DD008521D1 /* CYJPlayerModel.m */,
+				CC694DEE1C438709008521D1 /* CYJPlayer.h */,
+				CC694DEF1C438709008521D1 /* CYJPlayer.m */,
+				CC78BB3F1C4E1BAA00ECDBB2 /* CYJFileManager.h */,
+				CC78BB401C4E1BAA00ECDBB2 /* CYJFileManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CC694DF11C438A7F008521D1 /* 阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				CC71F4F71C448C7700FDB49F /* Controller */,
+				CC694EB91C43E359008521D1 /* View */,
+				CC694EB61C43D9C7008521D1 /* Image */,
+			);
+			name = "阅读";
+			sourceTree = "<group>";
+		};
+		CC694EB21C43CE24008521D1 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				CC71F4FB1C44A4CE00FDB49F /* image */,
+				CC75902F1C4B794300213506 /* View */,
+				CC71F4FA1C44A4B900FDB49F /* Controller */,
+			);
+			name = "音乐";
+			sourceTree = "<group>";
+		};
+		CC694EB61C43D9C7008521D1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CC71F4F51C44873700FDB49F /* cat.gif */,
+				CC694EC41C43E9AF008521D1 /* bigPlaceHolder.png */,
+				CC694EB71C43D9DA008521D1 /* loading.gif */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		CC694EB91C43E359008521D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC694EBA1C43E38D008521D1 /* NewProductsCell.h */,
+				CC694EBB1C43E38D008521D1 /* NewProductsCell.m */,
+				CC694EBC1C43E38D008521D1 /* NewProductsCell.xib */,
+				CC694EBF1C43E67B008521D1 /* ArtistCell.h */,
+				CC694EC01C43E67B008521D1 /* ArtistCell.m */,
+				CC694EC11C43E67B008521D1 /* ArtistCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC71F4F71C448C7700FDB49F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC694DF21C438AA0008521D1 /* CYJReaderVC.h */,
+				CC694DF31C438AA0008521D1 /* CYJReaderVC.m */,
+				CC694EC61C43EBFF008521D1 /* ScrollDetailVC.h */,
+				CC694EC71C43EBFF008521D1 /* ScrollDetailVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC71F4FA1C44A4B900FDB49F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC694EB31C43CE6A008521D1 /* CYJListenVC.h */,
+				CC694EB41C43CE6A008521D1 /* CYJListenVC.m */,
+				CC75902C1C4B77DD00213506 /* CYJTodayMusicVC.h */,
+				CC75902D1C4B77DD00213506 /* CYJTodayMusicVC.m */,
+				CC7590351C4B892800213506 /* CYJTodayMusicDetailVC.h */,
+				CC7590361C4B892800213506 /* CYJTodayMusicDetailVC.m */,
+				CC75903A1C4BAF4700213506 /* CYJFindMusicVC.h */,
+				CC75903B1C4BAF4700213506 /* CYJFindMusicVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CC71F4FB1C44A4CE00FDB49F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CC7590421C4BB12B00213506 /* cell播放2.png */,
+				CC71F4F81C44A4B400FDB49F /* 更多.png */,
+				CC7590381C4B92F900213506 /* cell播放.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		CC75902F1C4B794300213506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC7590301C4B798600213506 /* TodayMusicCell.h */,
+				CC7590311C4B798600213506 /* TodayMusicCell.m */,
+				CC7590321C4B798600213506 /* TodayMusicCell.xib */,
+				CC75903D1C4BB03100213506 /* FindMusicCell.h */,
+				CC75903E1C4BB03100213506 /* FindMusicCell.m */,
+				CC75903F1C4BB03100213506 /* FindMusicCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CC78BB2C1C4E184100ECDBB2 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CC78BB2D1C4E184100ECDBB2 /* FMDatabase.h */,
+				CC78BB2E1C4E184100ECDBB2 /* FMDatabase.m */,
+				CC78BB2F1C4E184100ECDBB2 /* FMDatabaseAdditions.h */,
+				CC78BB301C4E184100ECDBB2 /* FMDatabaseAdditions.m */,
+				CC78BB311C4E184100ECDBB2 /* FMDatabasePool.h */,
+				CC78BB321C4E184100ECDBB2 /* FMDatabasePool.m */,
+				CC78BB331C4E184100ECDBB2 /* FMDatabaseQueue.h */,
+				CC78BB341C4E184100ECDBB2 /* FMDatabaseQueue.m */,
+				CC78BB351C4E184100ECDBB2 /* FMDB.h */,
+				CC78BB361C4E184100ECDBB2 /* FMResultSet.h */,
+				CC78BB371C4E184100ECDBB2 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		CC9F173C1C4CC47100368B04 /* 潮流圈 */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F173D1C4CC49700368B04 /* CYJFashionVC.h */,
+				CC9F173E1C4CC49700368B04 /* CYJFashionVC.m */,
+			);
+			name = "潮流圈";
+			sourceTree = "<group>";
+		};
+		CC9F174F1C4D103900368B04 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F17531C4D121000368B04 /* View */,
+				CC9F174C1C4D103000368B04 /* RootViewController.h */,
+				CC9F174D1C4D103000368B04 /* RootViewController.m */,
+				CC9F17501C4D11D800368B04 /* CYJCollectMusic.h */,
+				CC9F17511C4D11D800368B04 /* CYJCollectMusic.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		CC9F17531C4D121000368B04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F17541C4D123300368B04 /* MusicCell.h */,
+				CC9F17551C4D123300368B04 /* MusicCell.m */,
+				CC9F17561C4D123300368B04 /* MusicCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCAB4E311C4A474E00A520D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCC651151C42725700392632 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CCBC0BD71C4DE5A8000703FA /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC0BD81C4DE5A8000703FA /* Info.plist */,
+				CCBC0BD91C4DE5A8000703FA /* MASCompositeConstraint.h */,
+				CCBC0BDA1C4DE5A8000703FA /* MASCompositeConstraint.m */,
+				CCBC0BDB1C4DE5A8000703FA /* MASConstraint+Private.h */,
+				CCBC0BDC1C4DE5A8000703FA /* MASConstraint.h */,
+				CCBC0BDD1C4DE5A8000703FA /* MASConstraint.m */,
+				CCBC0BDE1C4DE5A8000703FA /* MASConstraintMaker.h */,
+				CCBC0BDF1C4DE5A8000703FA /* MASConstraintMaker.m */,
+				CCBC0BE01C4DE5A8000703FA /* MASLayoutConstraint.h */,
+				CCBC0BE11C4DE5A8000703FA /* MASLayoutConstraint.m */,
+				CCBC0BE21C4DE5A8000703FA /* Masonry.h */,
+				CCBC0BE31C4DE5A8000703FA /* MASUtilities.h */,
+				CCBC0BE41C4DE5A8000703FA /* MASViewAttribute.h */,
+				CCBC0BE51C4DE5A8000703FA /* MASViewAttribute.m */,
+				CCBC0BE61C4DE5A8000703FA /* MASViewConstraint.h */,
+				CCBC0BE71C4DE5A8000703FA /* MASViewConstraint.m */,
+				CCBC0BE81C4DE5A8000703FA /* NSArray+MASAdditions.h */,
+				CCBC0BE91C4DE5A8000703FA /* NSArray+MASAdditions.m */,
+				CCBC0BEA1C4DE5A8000703FA /* NSArray+MASShorthandAdditions.h */,
+				CCBC0BEB1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CCBC0BEC1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CCBC0BED1C4DE5A8000703FA /* View+MASAdditions.h */,
+				CCBC0BEE1C4DE5A8000703FA /* View+MASAdditions.m */,
+				CCBC0BEF1C4DE5A8000703FA /* View+MASShorthandAdditions.h */,
+				CCBC0BF01C4DE5A8000703FA /* ViewController+MASAdditions.h */,
+				CCBC0BF11C4DE5A8000703FA /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		CCC651001C42725700392632 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +544,8 @@
 				CCC651281C42725700392632 /* 01-电台Tests */,
 				CCC651331C42725700392632 /* 01-电台UITests */,
 				CCC6510A1C42725700392632 /* Products */,
+				312726CCAEC3518009CD29DB /* Pods */,
+				82616C07ECB4C3FC6D0F4271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +562,13 @@
 		CCC6510B1C42725700392632 /* 01-电台 */ = {
 			isa = PBXGroup;
 			children = (
-				CCC6510F1C42725700392632 /* AppDelegate.h */,
-				CCC651101C42725700392632 /* AppDelegate.m */,
-				CCC651121C42725700392632 /* ViewController.h */,
-				CCC651131C42725700392632 /* ViewController.m */,
-				CCC651151C42725700392632 /* Main.storyboard */,
-				CCC6511B1C42725700392632 /* Assets.xcassets */,
-				CCC6511D1C42725700392632 /* LaunchScreen.storyboard */,
-				CCC651201C42725700392632 /* Info.plist */,
-				CCC651181C42725700392632 /* _1___.xcdatamodeld */,
+				CC9F174F1C4D103900368B04 /* 我的 */,
+				CCAB4E311C4A474E00A520D1 /* View */,
+				CC694DF11C438A7F008521D1 /* 阅读 */,
+				CC694EB21C43CE24008521D1 /* 音乐 */,
+				CC9F173C1C4CC47100368B04 /* 潮流圈 */,
+				CC6704AB1C433BFC0068424F /* Tool */,
+				CCC651421C4278BA00392632 /* MyTabBar */,
 				CCC6510C1C42725700392632 /* Supporting Files */,
 			);
 			path = "01-电台";
@@ -120,6 +577,14 @@
 		CCC6510C1C42725700392632 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCC6510F1C42725700392632 /* AppDelegate.h */,
+				CCC651101C42725700392632 /* AppDelegate.m */,
+				CCC651121C42725700392632 /* ViewController.h */,
+				CCC651131C42725700392632 /* ViewController.m */,
+				CCC6511B1C42725700392632 /* Assets.xcassets */,
+				CCC6511D1C42725700392632 /* LaunchScreen.storyboard */,
+				CCC651201C42725700392632 /* Info.plist */,
+				CCC651181C42725700392632 /* _1___.xcdatamodeld */,
 				CCC6510D1C42725700392632 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +608,35 @@
 			path = "01-电台UITests";
 			sourceTree = "<group>";
 		};
+		CCC651421C4278BA00392632 /* MyTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CC694DEA1C4386B1008521D1 /* Model */,
+				CC694DE91C437D7D008521D1 /* playerImage */,
+				CCC651461C42791600392632 /* TabBarImage */,
+				CCC651431C4278E700392632 /* MyTabBar.h */,
+				CCC651441C4278E700392632 /* MyTabBar.m */,
+			);
+			name = MyTabBar;
+			sourceTree = "<group>";
+		};
+		CCC651461C42791600392632 /* TabBarImage */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F173A1C4CC3AE00368B04 /* TabBar3.png */,
+				CC9F17381C4CC36000368B04 /* TabBarSel3.png */,
+				CCC6516A1C428C9B00392632 /* TabBar.png */,
+				CCC651581C427FF100392632 /* 简魏碑.TTF */,
+				CCC6515C1C42889400392632 /* TabBarSel4.png */,
+				CCC6515D1C42889400392632 /* TabBar4.png */,
+				CCC6515E1C42889400392632 /* TabBar2.png */,
+				CCC6515F1C42889400392632 /* TabBar1.png */,
+				CCC651601C42889400392632 /* TabBarSel1.png */,
+				CCC651611C42889400392632 /* TabBarSel2.png */,
+			);
+			name = TabBarImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +644,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCC651391C42725700392632 /* Build configuration list for PBXNativeTarget "01-电台" */;
 			buildPhases = (
+				536A412F595C803E8CEFB42B /* Check Pods Manifest.lock */,
 				CCC651051C42725700392632 /* Sources */,
 				CCC651061C42725700392632 /* Frameworks */,
 				CCC651071C42725700392632 /* Resources */,
+				F8ADFD639AD089CCC5ABBE2A /* Embed Pods Frameworks */,
+				6BAC77E8E2FA1CB98630032C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +743,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC694DE31C437BFF008521D1 /* 收藏过.png in Resources */,
+				CC694DDF1C437BFF008521D1 /* 播放.png in Resources */,
+				CCC651651C42889400392632 /* TabBar4.png in Resources */,
+				CCC651681C42889400392632 /* TabBarSel1.png in Resources */,
+				CC7590431C4BB12B00213506 /* cell播放2.png in Resources */,
+				CC71F4F91C44A4B400FDB49F /* 更多.png in Resources */,
+				CC6705941C434BD10068424F /* btn_close_selected@2x.png in Resources */,
+				CC7590411C4BB03100213506 /* FindMusicCell.xib in Resources */,
+				CC6705931C434BD10068424F /* btn_close_selected.png in Resources */,
+				CCC651661C42889400392632 /* TabBar2.png in Resources */,
+				CCC6516B1C428C9B00392632 /* TabBar.png in Resources */,
+				CC694EBE1C43E38D008521D1 /* NewProductsCell.xib in Resources */,
+				CC7590391C4B92F900213506 /* cell播放.png in Resources */,
 				CCC6511F1C42725700392632 /* LaunchScreen.storyboard in Resources */,
+				CCBC0B051C4DC8DD000703FA /* 音量.png in Resources */,
+				CC9F17391C4CC36000368B04 /* TabBarSel3.png in Resources */,
+				CC71F4F61C44873700FDB49F /* cat.gif in Resources */,
+				CC694DE51C437BFF008521D1 /* 圆矩形.png in Resources */,
+				CCC651591C427FF100392632 /* 简魏碑.TTF in Resources */,
+				CC6705911C434BD10068424F /* btn_close_normal.png in Resources */,
+				CCBC0BF21C4DE5A8000703FA /* Info.plist in Resources */,
 				CCC6511C1C42725700392632 /* Assets.xcassets in Resources */,
+				CC9F17581C4D123300368B04 /* MusicCell.xib in Resources */,
+				CC694EC31C43E67B008521D1 /* ArtistCell.xib in Resources */,
+				CC694DE01C437BFF008521D1 /* 歌单.png in Resources */,
+				CCBC0BD61C4DE15B000703FA /* iconfont-huakuai.png in Resources */,
+				CC694DE21C437BFF008521D1 /* 收藏.png in Resources */,
+				CCC651641C42889400392632 /* TabBarSel4.png in Resources */,
+				CC694EB81C43D9DA008521D1 /* loading.gif in Resources */,
 				CCC651171C42725700392632 /* Main.storyboard in Resources */,
+				CC694DE11C437BFF008521D1 /* 上一首.png in Resources */,
+				CC9F173B1C4CC3AE00368B04 /* TabBar3.png in Resources */,
+				CC694DE81C437C69008521D1 /* 背景.jpg in Resources */,
+				CC694DDD1C437BFF008521D1 /* MusicTabBack.png in Resources */,
+				CC694DE41C437BFF008521D1 /* 下一首.png in Resources */,
+				CC694EC51C43E9AF008521D1 /* bigPlaceHolder.png in Resources */,
+				CC7590341C4B798600213506 /* TodayMusicCell.xib in Resources */,
+				CC694DDE1C437BFF008521D1 /* quit.png in Resources */,
+				CCC651691C42889400392632 /* TabBarSel2.png in Resources */,
+				CC6705921C434BD10068424F /* btn_close_normal@2x.png in Resources */,
+				CCC651671C42889400392632 /* TabBar1.png in Resources */,
+				CC694DE61C437BFF008521D1 /* 暂停.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +804,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		536A412F595C803E8CEFB42B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BAC77E8E2FA1CB98630032C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8ADFD639AD089CCC5ABBE2A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCC651051C42725700392632 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC75903C1C4BAF4700213506 /* CYJFindMusicVC.m in Sources */,
 				CCC651141C42725700392632 /* ViewController.m in Sources */,
+				CCBC0BF71C4DE5A8000703FA /* MASViewAttribute.m in Sources */,
+				CC78BB381C4E184100ECDBB2 /* FMDatabase.m in Sources */,
+				CCBC0BF91C4DE5A8000703FA /* NSArray+MASAdditions.m in Sources */,
 				CCC651111C42725700392632 /* AppDelegate.m in Sources */,
+				CC78BB3C1C4E184100ECDBB2 /* FMResultSet.m in Sources */,
 				CCC6510E1C42725700392632 /* main.m in Sources */,
+				CC75902E1C4B77DD00213506 /* CYJTodayMusicVC.m in Sources */,
+				CC694DF01C438709008521D1 /* CYJPlayer.m in Sources */,
+				CC78BB3B1C4E184100ECDBB2 /* FMDatabaseQueue.m in Sources */,
+				CC694DF41C438AA0008521D1 /* CYJReaderVC.m in Sources */,
+				CC694EC21C43E67B008521D1 /* ArtistCell.m in Sources */,
+				CC9F173F1C4CC49700368B04 /* CYJFashionVC.m in Sources */,
+				CC694EB51C43CE6A008521D1 /* CYJListenVC.m in Sources */,
+				CCC651451C4278E700392632 /* MyTabBar.m in Sources */,
+				CCBC0BF41C4DE5A8000703FA /* MASConstraint.m in Sources */,
+				CC7590401C4BB03100213506 /* FindMusicCell.m in Sources */,
+				CC78BB411C4E1BAA00ECDBB2 /* CYJFileManager.m in Sources */,
+				CCBC0BF81C4DE5A8000703FA /* MASViewConstraint.m in Sources */,
+				CCBC0BFB1C4DE5A8000703FA /* View+MASAdditions.m in Sources */,
+				CCBC0BF51C4DE5A8000703FA /* MASConstraintMaker.m in Sources */,
+				CC6704AE1C433C2A0068424F /* UIView+FrameExtension.m in Sources */,
+				CCBC0BF31C4DE5A8000703FA /* MASCompositeConstraint.m in Sources */,
+				CC7590371C4B892800213506 /* CYJTodayMusicDetailVC.m in Sources */,
+				CC78BB391C4E184100ECDBB2 /* FMDatabaseAdditions.m in Sources */,
 				CCC6511A1C42725700392632 /* _1___.xcdatamodeld in Sources */,
+				CC694EC81C43EBFF008521D1 /* ScrollDetailVC.m in Sources */,
+				CCBC0BFA1C4DE5A8000703FA /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				CC6705951C434BD10068424F /* DXAlertView.m in Sources */,
+				CC9F17521C4D11D800368B04 /* CYJCollectMusic.m in Sources */,
+				CC9F174E1C4D103000368B04 /* RootViewController.m in Sources */,
+				CC7590331C4B798600213506 /* TodayMusicCell.m in Sources */,
+				CCBC0BF61C4DE5A8000703FA /* MASLayoutConstraint.m in Sources */,
+				CC694EBD1C43E38D008521D1 /* NewProductsCell.m in Sources */,
+				CC694DED1C4386DD008521D1 /* CYJPlayerModel.m in Sources */,
+				CCBC0BFC1C4DE5A8000703FA /* ViewController+MASAdditions.m in Sources */,
+				CC9F17571C4D123300368B04 /* MusicCell.m in Sources */,
+				CC78BB3A1C4E184100ECDBB2 /* FMDatabasePool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +1034,7 @@
 		};
 		CCC6513A1C42725700392632 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD9A8DD7FC4727660216978 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-电台/Info.plist";
@@ -426,6 +1046,7 @@
 		};
 		CCC6513B1C42725700392632 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF466FEF97B7EDE7BA7186C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-电台/Info.plist";
@@ -502,6 +1123,7 @@
 				CCC6513B1C42725700392632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC6513C1C42725700392632 /* Build configuration list for PBXNativeTarget "01-电台Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +1132,7 @@
 				CCC6513E1C42725700392632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC6513F1C42725700392632 /* Build configuration list for PBXNativeTarget "01-电台UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +1141,7 @@
 				CCC651411C42725700392632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
